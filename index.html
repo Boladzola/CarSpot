@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="./images/LogoLt.ico" type="image/x-icon" />
+
+    <title>CarSpot</title>
+  </head>
+  <body>
+    <div class="bgimg">
+      <!-- ---------------------------------------------------header------------------------------------------------------------ -->
+      <div class="header_container">
+        <div class="navbar">
+          <div class="navbar_img">
+            <img src="./images/Logo.png" alt="" />
+          </div>
+          <div class="navbar_p">
+            <a href="">Galeria zdjęć</a>
+            <a href="">FaQ</a>
+          </div>
+
+          <div>
+            <button type="button" class="btn btn-primary">
+              Zadzwoń do nas
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- ---------------------------------------------------main------------------------------------------------------------ -->
+      <div class="main">
+        <div class="main_container">
+          <div class="main_container__article">
+            <h1>Sprzedajemy samochody <br />z europy</h1>
+            <p>
+              Kup komfortowy pojazd, aby każda podróż <br />
+              była wyjątkowym przeżyciem.
+            </p>
+            <div class="main_button__container">
+              <button type="button" class="btn btn-primary">
+                Zobacz zdjęcia
+              </button>
+
+              <button type="button" class="btn btn-outline-primary">
+                Zadzwoń do nas
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- ---------------------------------------------------main 2nd part------------------------------------------------------------ -->
+
+
+    <div class="main_secondcontainer">
+      <div class="main_present">
+        <span>Prezentacja firmy</span>
+        <h2>Zobacz naszą Galerię zdjęć</h2>
+        <div class="main_title">
+          <p id="osobowe-btn" style="cursor: pointer">Samochody osobowe</p>
+          <p id="dostawcze-btn" style="cursor: pointer">Samochody dostawcze</p>
+        </div>
+      </div>
+    </div>
+
+      <!-- ---------------------------------------------------Galeria------------------------------------------------------------ -->
+
+    <section class="galeria">
+      <div class="galeria_container">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner"></div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <div></div>
+    <!-- ---------------------------------------------------footer------------------------------------------------------------ -->
+
+    <div class="footer">
+      <div class="footer_container">
+        <div class="footer_container__text">
+          <div id="r0">
+            <h3>
+              Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit
+              nulla commodo.
+            </h3>
+            <p>
+              Mauris varius ipsum mauris, rutrum lobortis magna efficitur a.
+              Donec egestas, nisl vehicula feugiat ornare, diam turpis efficitur
+              mi, ac venenatis eros ipsum ac arcu. Vestibulum et [...]
+            </p>
+            <a href="javascript:change_visibility ('r0', 'r1')">
+              Rozwiń <img src="./images/down.svg" />
+            </a>
+          </div>
+          <div id="r1" style="display: none">
+            <h3>
+              Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit
+              nulla commodo.
+            </h3>
+            <p>
+              Mauris varius ipsum mauris, rutrum lobortis magna efficitur a.
+              Donec egestas, nisl vehicula feugiat ornare, diam turpis efficitur
+              mi, ac venenatis eros ipsum ac arcu. Vestibulum et
+            </p>
+            <p>
+              Mauris varius ipsum mauris, rutrum lobortis magna efficitur a.
+              Donec egestas, nisl vehicula feugiat ornare, diam turpis efficitur
+              mi, ac venenatis eros ipsum ac arcu. Vestibulum et
+            </p>
+            <a href="#" onClick="change_visibility ('r1', 'r0')">
+              Zwiń <img src="./images/up.svg" />
+            </a>
+          </div>
+        </div>
+
+        <div class="footer_container__text">
+          <div id="r2">
+            <h3>
+              Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit
+              nulla commodo.
+            </h3>
+            <p>
+              Mauris varius ipsum mauris, rutrum lobortis magna efficitur a.
+              Donec egestas, nisl vehicula feugiat ornare, diam turpis efficitur
+              mi, ac venenatis eros ipsum ac arcu. Vestibulum et [...]
+            </p>
+            <a href="javascript:change_visibility ('r2', 'r3')">
+              Rozwiń <img src="./images/down.svg" />
+            </a>
+          </div>
+
+          <div id="r3" style="display: none">
+            <h3>
+              Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit
+              nulla commodo.
+            </h3>
+            <p>
+              Mauris varius ipsum mauris, rutrum lobortis magna efficitur a.
+              Donec egestas, nisl vehicula feugiat ornare, diam turpis efficitur
+              mi, ac venenatis eros ipsum ac arcu. Vestibulum et
+            </p>
+            <p>
+              Mauris varius ipsum mauris, rutrum lobortis magna efficitur a.
+              Donec egestas, nisl vehicula feugiat ornare, diam turpis efficitur
+              mi, ac venenatis eros ipsum ac arcu. Vestibulum et
+            </p>
+            <a href="#" onClick="change_visibility ('r3', 'r2')">
+              Zwiń <img src="./images/up.svg" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- ---------------------------------------------------footer 2nd part------------------------------------------------------------ -->
+
+
+    <div class="footer_bottom">
+      <div class="footer_bottom__text">
+        <p>Cars Spot</p>
+        <a href="">Polityka prywatności</a>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="slider.js"></script>
+  </body>
+</html>
